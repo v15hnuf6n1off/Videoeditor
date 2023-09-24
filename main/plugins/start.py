@@ -39,7 +39,7 @@ async def menu(event):
 async def info(event):
     await event.edit(f'**info:**\n\n{info_text}',
                     buttons=[[
-                         Button.inline("Menu.", data="menu")]])
+                         Button.inline("Menu", data="menu")]])
     
 @Drone.on(events.callbackquery.CallbackQuery(data="notice"))
 async def notice(event):
@@ -48,9 +48,8 @@ async def notice(event):
 @Drone.on(events.callbackquery.CallbackQuery(data="source"))
 async def source(event):
     await event.edit(source_text,
-                    buttons=[[
-                         
-                        Button.url("FOR YOUR CHANNEL ", url="https://github.com/vasusen-code/videoconvertor/")]])
+                    buttons=[[  
+                     Button.url("FOR YOUR CHANNEL ", url="https://t.me/v15hnuf6n1x")]])
                          
                     
 @Drone.on(events.callbackquery.CallbackQuery(data="help"))
