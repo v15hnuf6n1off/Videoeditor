@@ -36,7 +36,7 @@ spam_notice = "ᴅᴏɴᴛ ᴏᴠᴇʀʟᴏᴀᴅ ᴛʜᴇ ʙᴏᴛ ᴛʜɪs ʙ�
 
 JPG = "https://graph.org/file/9745a774ce976dede452f.jpg"
 
-JPG0 = ''
+JPG0 = 'https://graph.org/file/9745a774ce976dede452f.jpg'
 
 JPG2 = "https://graph.org/file/f1cec854e417425464096.jpg"
 
