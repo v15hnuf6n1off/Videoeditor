@@ -1,45 +1,47 @@
 #Don't be a thief by stealing other's Hardwork, it took time and effort to make this repo.
 #Respect my work by not making any changes here.
 
-START_TEXT = "Send me any file to begin."
+START_TEXT = "sᴇɴᴅ ᴍᴇ ᴀɴʏ ғɪʟᴇ ʙᴇʟᴏᴡ 2Gʙ"
 
-FORCE_SUB_TEXT = "In order to use this bot, you've to join my parent channel."
+FORCE_SUB_TEXT = "ᴛᴏ ᴜsᴇ ᴍᴇ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴊᴏɪɴ ᴍʏ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ"
 
-CHANNEL_LINK = "https://t.me/DroneBots"
+CHANNEL_LINK = "https://t.me/Mr_V_bots"
 
-SUPPORT_LINK = "https://t.me/TeamDrone"
+SUPPORT_LINK = "https://t.me/+MviX9PK66y4yZTBl"
 
-info_text = "This bot is developed by @MaheshChauhan\n\nWritten in python library TELETHON.\n\nBot by : @DroneBots\nSupport : @TeamDrone\n\nV1.4"   
+info_text = "ʜᴇʟʟᴏ"   
 
-help_text = """**v1.4**
+help_text = """**ᴠᴇʀsɪᴏɴ 02**
 
-•`Encode` - encode your video into different lib format or resolution
+• `ᴇɴᴄᴏᴅᴇ` - ᴇɴᴄᴏᴅᴇs ʏᴏᴜʀ ᴠɪᴅᴇᴏ ɪɴᴛᴏ ᴠᴀʀɪᴘᴜs ʀᴇsᴏʟᴜᴛɪᴏɴ
 
-•`HEVC compress` - negligible loss compression
+• `ʜᴇᴠᴄ ᴄᴏᴍᴘʀᴇss` - ᴄᴏᴍᴘʀᴇss ʏᴏᴜʀ ᴠɪᴅᴇᴏ ᴡɪᴛʜᴏᴜᴛ ʟᴏsɪɴɢ ǫᴜᴀʟɪᴛʏ
 
-•`FAST compress` - Very fast and Efficient compression
+• `ғᴀsᴛ ᴄᴏᴍᴘʀᴇss` - ᴄᴏᴍᴘʀᴇss ʏᴏᴜʀ ᴠɪᴅᴇᴏ ғᴀsᴛ
 
-•`Convert` - change formats or extract audio of any video
+• `ᴄᴏɴᴠᴇʀᴛ` - ᴛᴏ ᴄʜᴀɴɢᴇ ᴛʜᴇ ғᴏʀᴍᴀᴛ ᴏғ ᴛʜᴇ ᴠɪᴅᴇᴏ ғɪʟᴇ
 
-•`Rename` - rename any file, extension not required
+• `ʀᴇɴᴀᴍᴇ` - ʀᴇɴᴀᴍᴇs ᴛʜᴇ ғɪʟᴇ 
 
-•`SSHOTS` - generate 10 screenshots of your video
+• `ssʜᴏᴛ` - ᴇxᴘᴏʀᴛ's 10 sᴄʀᴇᴇɴsʜᴏᴛ ғʀᴏᴍ ʏᴏᴜʀ ғɪʟᴇ'
 
-•`Trim` - cut your videos"""
+• `ᴛʀɪᴍ` - ᴛʀɪᴍ's ʏᴏᴜʀ ᴠɪᴅᴇᴏ'"""
 
-source_text = "**Deploy your own bot**"
+source_text = "**ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ**"
 
-DEV = "https://t.me/MaheshChauhan"
+DEV = "https://t.me/v15hnuf6n1x"
 
-spam_notice = "This bot is hosted on heroku, and hence can just run one process at a time.Spamming the bot or encoding adult videos will lead you to a ban."
+spam_notice = "ᴅᴏɴᴛ ᴏᴠᴇʀʟᴏᴀᴅ ᴛʜᴇ ʙᴏᴛ
+ᴛʜɪs ʙᴏᴛ sᴜᴘᴘᴏʀᴛs ʙᴇʟᴏᴡ 2Gʙ ғɪʟᴇs ᴏɴʟʏ
+ᴅᴏɴᴛ sᴇɴᴅ ᴀᴅᴜʟᴛ ᴄᴏɴᴛᴇɴᴛ ᴛᴏ ᴛʜɪs ʙᴏᴛ ɪғ ᴜ sᴇɴᴅ ᴜ ᴡɪʟʟ ᴄᴏᴍᴘʟᴇᴛᴇʟʏ ɢᴇᴛ ʙᴀɴɴᴇᴅ ʙʏ ᴀᴅᴍɪɴ "
 
-JPG = "LOCAL/video_convertor.jpg"
+JPG = "https://graph.org/file/9745a774ce976dede452f.jpg"
 
-JPG0 = 'https://telegra.ph/file/d98c559b56ef884ef3bad.jpg'
+JPG0 = ''
 
-JPG2 = "LOCAL/20211215_165751.jpg"
+JPG2 = "https://graph.org/file/f1cec854e417425464096.jpg"
 
-JPG3 = "LOCAL/PicsArt_12-16-08.57.15.jpg"
+JPG3 = "https://graph.org/file/f1cec854e417425464096.jpg"
 
-JPG4 = "LOCAL/20211219_000258.jpg"
+JPG4 = "https://graph.org/file/9745a774ce976dede452f.jpg"
 
