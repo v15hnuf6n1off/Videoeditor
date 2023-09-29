@@ -31,9 +31,7 @@ source_text = "**ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ**"
 
 DEV = "https://t.me/v15hnuf6n1x"
 
-spam_notice = "ᴅᴏɴᴛ ᴏᴠᴇʀʟᴏᴀᴅ ᴛʜᴇ ʙᴏᴛ ᴛʜɪs ʙᴏᴛ sᴜᴘᴘᴏʀᴛs ʙᴇʟᴏᴡ 2Gʙ ғɪʟᴇs ᴏɴʟʏ
-ᴅᴏɴᴛ sᴇɴᴅ ᴀᴅᴜʟᴛ ᴄᴏɴᴛᴇɴᴛ ᴛᴏ ᴛʜɪs ʙᴏᴛ ɪғ ᴜ sᴇɴᴅ ᴜ ᴡɪʟʟ ᴄᴏᴍᴘʟᴇᴛᴇʟʏ ɢᴇᴛ ʙᴀɴɴᴇᴅ ʙʏ ᴀᴅᴍɪɴ "
-
+spam_notice = "Don't spam the bot"
 JPG = "https://graph.org/file/9745a774ce976dede452f.jpg"
 
 JPG0 = 'https://graph.org/file/9745a774ce976dede452f.jpg'
