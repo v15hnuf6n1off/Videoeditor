@@ -32,13 +32,13 @@ source_text = "**ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ**"
 DEV = "https://t.me/v15hnuf6n1x"
 
 spam_notice = "Don't spam the bot"
-JPG = "https://graph.org/file/9745a774ce976dede452f.jpg"
+JPG = "LOCAL/photo_2023-10-01_08-12-27.jpg"
 
-JPG0 = "https://graph.org/file/9745a774ce976dede452f.jpg"
+JPG0 = "LOCAL/photo_2023-10-01_08-12-27.jpg"
 
-JPG2 = "https://graph.org/file/f1cec854e417425464096.jpg"
+JPG2 = "LOCAL/photo_2023-10-01_08-12-27.jpg"
 
-JPG3 = "https://graph.org/file/f1cec854e417425464096.jpg"
+JPG3 = "LOCAL/photo_2023-10-01_08-12-27.jpg"
 
-JPG4 = "https://graph.org/file/9745a774ce976dede452f.jpg"
+JPG4 = "LOCAL/photo_2023-10-01_08-12-27.jpg"
 
