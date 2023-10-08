@@ -49,18 +49,18 @@ async def notice(event):
 async def source(event):
     await event.edit(source_text,
                     buttons=[[  
-                     Button.url("FOR YOUR CHANNEL ", url="https://t.me/v15hnuf6n1x")]])
+                     Button.url("Source Code ", url="https://t.me/v15hnuf6n1x")]])
                          
                     
 @Drone.on(events.callbackquery.CallbackQuery(data="help"))
 async def help(event):
     await event.edit('**settings**',
                     buttons=[[
-                         Button.inline("Set Thumb", data="sett"),
-                         Button.inline("Rem thumb", data='remt')],
+                         Button.inline("Set Thumb 🖼", data="sett"),
+                         Button.inline("Rem thumb 🖼", data='remt')],
                          [
-                         Button.inline("Features", data="plugins"),
-                         Button.inline("Restart", data="restart")],
+                         Button.inline("Features 💡", data="plugins"),
+                         Button.inline("Restart 📛", data="restart")],
                          [Button.url("Support", url=f"{SUPPORT_LINK}")],
                          [
                          Button.inline("Back", data="menu")]])
