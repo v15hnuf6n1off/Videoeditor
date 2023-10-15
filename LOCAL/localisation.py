@@ -32,13 +32,13 @@ source_text = "**ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ**"
 DEV = "https://t.me/v15hnuf6n1x"
 
 spam_notice = "Don't spam the bot"
-JPG = "LOCAL/photo_2023-10-01_08-12-27.jpg"
+JPG = "LOCAL/custom_thumb.jpg"
 
-JPG0 = "LOCAL/photo_2023-10-01_08-12-27.jpg"
+JPG0 = "LOCAL/custom_thumb.jpg"
 
-JPG2 = "LOCAL/photo_2023-10-01_08-12-27.jpg"
+JPG2 = "LOCAL/custom_thumb.jpg"
 
-JPG3 = "LOCAL/photo_2023-10-01_08-12-27.jpg"
+JPG3 = "LOCAL/custom_thumb.jpg"
 
-JPG4 = "LOCAL/photo_2023-10-01_08-12-27.jpg"
+JPG4 = "LOCAL/custom_thumb.jpg"
 
