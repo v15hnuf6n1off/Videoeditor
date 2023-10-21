@@ -89,7 +89,7 @@ async def compress(event, msg, ffmpeg_cmd=0, ps_name=None):
     elif ffmpeg_cmd == 2:
         cmd = f'ffmpeg -hide_banner -loglevel quiet -progress {progress} -i """{name}""" -c:v libx265 -crf 22 -preset ultrafast -s 640x360 -c:a copy -c:s copy """{out}""" -y'
     elif ffmpeg_cmd == 3:
-        cmd = f'ffmpeg -hide_banner -loglevel quiet -progress {progress} -i """{name}""" -preset faster  libx265 -s 1920x1080 -x265-params 'bframes=8:psy-rd=1:ref=3:aq-mode=3:aq-strength=0.8:deblock=1,1' -metadata 'title=A1PHER' -pix_fmt yuv420p -crf 30 -c:a libopus -b:a 32k -c:s copy """{out}""" -y 
+        cmd = f'ffmpeg -hide_banner -loglevel quiet -progress {progress} -i """{name}""" -preset faster -vcodec libx264 -crf 22 -acodec copy -c:s copy """{out}""" -y' 
     elif ffmpeg_cmd == 4:
         cmd = f'ffmpeg -hide_banner -loglevel quiet -progress {progress} -i """{name}""" -preset faster -vcodec libx264 -crf 22 -acodec copy -c:s copy """{out}""" -y'
     try:
