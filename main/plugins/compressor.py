@@ -110,7 +110,7 @@ async def compress(event, msg, ffmpeg_cmd=0, ps_name=None):
     f_size = os.path.getsize(out2)     
     text = F'{out2} **ENCODED by:** @{BOT_UN}'
     if ps_name != "**ENCODING:**":
-        text = f'{caption}{out2}**COMPRESSED by** : @{BOT_UN}\n\nbefore compressing : `{i_size}`\nafter compressing : `{f_size}`'
+        text = f'**COMPRESSED by** : @{BOT_UN}\n\nbefore compressing : `{i_size}`\nafter compressing : `{f_size}`'
     UT = time.time()
     await log.edit("Uploading file.")
     if 'x-matroska' in mime:
@@ -156,7 +156,7 @@ async def compress(event, msg, ffmpeg_cmd=0, ps_name=None):
     os.remove(name)
     os.remove(out2)
     await log.delete()
-    log_end_text2 = f'**{_ps} {caption} {out2} PROCESS FINISHED**\n\nTime Taken: {round((time.time()-DT)/60)} minutes\nInitial size: {i_size/1000000}mb.\nFinal size: {f_size/1000000}mb.\n\n[Bot is free now.]({SUPPORT_LINK})'
+    log_end_text2 = f'**{_ps} {new_name}PROCESS FINISHED**\n\nTime Taken: {round((time.time()-DT)/60)} minutes\nInitial size: {i_size/1000000}mb.\nFinal size: {f_size/1000000}mb.\n\n[Bot is free now.]({SUPPORT_LINK})'
     await LOG_END(event, log_end_text2)
     
 
