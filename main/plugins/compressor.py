@@ -110,13 +110,13 @@ async def compress(event, msg, ffmpeg_cmd=0, ps_name=None):
     f_size = os.path.getsize(out2)     
     text = F'(name) **ENCODED by:** @{BOT_UN}'
     if ps_name != "**ENCODING:**":
-        text = f'(name) **COMPRESSED by** : @{BOT_UN}\n\nbefore compressing : `{i_size}`\nafter compressing : `{f_size}`'
+        text = f'{caption}**COMPRESSED by** : @{BOT_UN}\n\nbefore compressing : `{i_size}`\nafter compressing : `{f_size}`'
     UT = time.time()
     await log.edit("Uploading file.")
     if 'x-matroska' in mime:
         try:
             uploader = await fast_upload(f'{out2}', f'{out2}', UT, Drone, edit, '**UPLOADING:**')
-            await Drone.send_file(event.chat_id, uploader, caption={out2}, thumb=JPG, force_document=True)
+            await Drone.send_file(event.chat_id, uploader, caption=text, thumb=JPG, force_document=True)
         except Exception as e:
             await log.delete()
             await LOG_END(event, log_end_text)
@@ -126,7 +126,7 @@ async def compress(event, msg, ffmpeg_cmd=0, ps_name=None):
     elif 'webm' in mime:
         try:
             uploader = await fast_upload(f'{out2}', f'{out2}', UT, Drone, edit, '**UPLOADING:**')
-            await Drone.send_file(event.chat_id, uploader, caption={out2}, thumb=JPG, force_document=True)
+            await Drone.send_file(event.chat_id, uploader, caption=text, thumb=JPG, force_document=True)
         except Exception as e:
             await log.delete()
             await LOG_END(event, log_end_text)
@@ -141,11 +141,11 @@ async def compress(event, msg, ffmpeg_cmd=0, ps_name=None):
         attributes = [DocumentAttributeVideo(duration=duration, w=width, h=height, supports_streaming=True)]
         try:
             uploader = await fast_upload(f'{out2}', f'{out2}', UT, Drone, edit, '**UPLOADING:**')
-            await Drone.send_file(event.chat_id, uploader, caption={out}, thumb=JPG3, attributes=attributes, force_document=False)
+            await Drone.send_file(event.chat_id, uploader, caption=text, thumb=JPG3, attributes=attributes, force_document=False)
         except Exception:
             try:
                 uploader = await fast_upload(f'{out2}', f'{out2}', UT, Drone, edit, '**UPLOADING:**')
-                await Drone.send_file(event.chat_id, uploader, caption={out}, thumb=JPG, force_document=True)
+                await Drone.send_file(event.chat_id, uploader, caption=text, thumb=JPG, force_document=True)
             except Exception as e:
                 await log.delete()
                 await LOG_END(event, log_end_text)
@@ -156,7 +156,7 @@ async def compress(event, msg, ffmpeg_cmd=0, ps_name=None):
     os.remove(name)
     os.remove(out2)
     await log.delete()
-    log_end_text2 = f'**{_ps} (name) PROCESS FINISHED**\n\nTime Taken: {round((time.time()-DT)/60)} minutes\nInitial size: {i_size/1000000}mb.\nFinal size: {f_size/1000000}mb.\n\n[Bot is free now.]({SUPPORT_LINK})'
+    log_end_text2 = f'**{_ps} {caption} PROCESS FINISHED**\n\nTime Taken: {round((time.time()-DT)/60)} minutes\nInitial size: {i_size/1000000}mb.\nFinal size: {f_size/1000000}mb.\n\n[Bot is free now.]({SUPPORT_LINK})'
     await LOG_END(event, log_end_text2)
     
 
