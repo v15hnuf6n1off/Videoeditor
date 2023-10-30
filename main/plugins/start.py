@@ -26,7 +26,7 @@ from LOCAL.localisation import info_text, spam_notice, help_text, DEV, source_te
 async def start(event):
     await event.reply(f'{st}', 
                       buttons=[
-                              [Button.inline("Menu", data="menu")]
+                              [Button.inline("𝗠𝗲𝗻𝘂", data="menu")]
                               ])
     tag = f'[{event.sender.first_name}](tg://user?id={event.sender_id})'
     await Drone.send_message(int(ACCESS_CHANNEL), f'{tag} started the BOT')
@@ -37,9 +37,9 @@ async def menu(event):
     
 @Drone.on(events.callbackquery.CallbackQuery(data="info"))
 async def info(event):
-    await event.edit(f'**info:**\n\n{info_text}',
+    await event.edit(f'**𝗜𝗻𝗳𝗼**\n\n{info_text}',
                     buttons=[[
-                         Button.inline("Menu", data="menu")]])
+                         Button.inline("𝗠𝗲𝗻𝘂", data="menu")]])
     
 @Drone.on(events.callbackquery.CallbackQuery(data="notice"))
 async def notice(event):
@@ -49,12 +49,12 @@ async def notice(event):
 async def source(event):
     await event.edit(source_text,
                     buttons=[[  
-                     Button.url("Source Code ", url="https://t.me/v15hnuf6n1x")]])
+                     Button.url("𝗦𝗼𝘂𝗿𝗰𝗲 𝗖𝗼𝗱𝗲 ", url="https://t.me/v15hnuf6n1x")]])
                          
                     
 @Drone.on(events.callbackquery.CallbackQuery(data="help"))
 async def help(event):
-    await event.edit('**settings**',
+    await event.edit('**𝗦𝗲𝘁𝘁𝗶𝗻𝗴𝘀**',
                     buttons=[[
                          Button.inline("Set Thumb 🖼", data="sett"),
                          Button.inline("Rem thumb 🖼", data='remt')],
@@ -63,12 +63,12 @@ async def help(event):
                          Button.inline("Restart 📛", data="restart")],
                          [Button.url("Support", url=f"{SUPPORT_LINK}")],
                          [
-                         Button.inline("Back", data="menu")]])
+                         Button.inline("𝗕𝗮𝗰𝗸", data="menu")]])
     
 @Drone.on(events.callbackquery.CallbackQuery(data="plugins"))
 async def plugins(event):
     await event.edit(f'{help_text}',
-                    buttons=[[Button.inline("Menu", data="menu")]])
+                    buttons=[[Button.inline("𝗠𝗲𝗻𝘂", data="menu")]])
                    
  #-----------------------------------------------------------------------------------------------                            
     
