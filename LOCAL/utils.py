@@ -67,8 +67,8 @@ async def ffmpeg_progress(cmd, file, progress, now, event, ps_name, log=None):
             if int(speed) != 0:
                 some_eta = ((int(total_frames) - elapse) / speed) * 1000
                 progress_str = "**[{0}{1}]** `| {2}%\n\n`".format(
-                    "".join("🟩" for i in range(math.floor(per / 5))),
-                    "".join("⬜" for i in range(10 - math.floor(per / 5))),
+                    "".join("●" for i in range(math.floor(per / 5))),
+                    "".join("○" for i in range(20 - math.floor(per / 5))),
                     round(per, 2),
                 )
                 e_size = humanbytes(size) + " of ~" + humanbytes((size / per) * 100)
